@@ -43,7 +43,7 @@ const Sign = ({ texture, onClick }) => (
 const InteractiveCommercialBuilding = () => {
   const [activeWindow, setActiveWindow] = useState(null);
   const [signTexture, setSignTexture] = useState(null);
-  const skinBilding = useTexture('../../public/Windows_normal.png');
+  const skinBilding = useTexture('/Windows_normal.png');
 
 
 
